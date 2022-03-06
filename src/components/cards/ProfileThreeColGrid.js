@@ -12,13 +12,13 @@ import { ReactComponent as GithubIcon } from "images/github-icon.svg";
 const HeadingContainer = tw.div``
 const Heading = tw(SectionHeading)``
 const Subheading = tw(SubheadingBase)`text-center mb-3`
-const Description = tw(SectionDescription)`mx-auto text-center`
+const Description = tw(SectionDescription)`mx-auto text-center text-secondary-900`
 
 const Cards = tw.div`flex flex-wrap flex-row justify-center sm:max-w-2xl lg:max-w-5xl mx-auto`
 const Card = tw.div`mt-24 w-full sm:w-1/2 lg:w-1/3 flex flex-col items-center`
 const CardImage = styled.div`
-  ${props => css`background-image: url("${props.imageSrc}");`}
-  ${tw`w-64 h-64 bg-contain bg-center rounded`}
+  ${props => css`background-image: url("${props.imageSrc}"); background-repeat: no-repeat;`}
+  ${tw`w-56 h-56 bg-contain bg-center rounded`}
 `
 const CardContent = styled.div`
   ${tw`flex flex-col items-center mt-6`}
@@ -160,9 +160,9 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://i.ibb.co/pLknZ0p/CFO.png",
-      position: "Chief Financial Officer",
-      name: "Fahimshad CK",
+      imageSrc: "https://i.ibb.co/HqNF8Dc/cco.png",
+      position: "Chief Creative Officer",
+      name: "Mohammad Jaseel T",
       links: [
         {
           url: "https://twitter.com",
@@ -220,6 +220,44 @@ export default ({
       imageSrc: "https://i.ibb.co/25KBr4t/coo.png",
       position: "Chief Operating Officer",
       name: "Harsha PC",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc: "https://i.ibb.co/s1hQJWc/iot.png",
+      position: "Iot In-charge ",
+      name: "Mohammed Zahid CK",
+      links: [
+        {
+          url: "https://twitter.com",
+          icon: TwitterIcon,
+        },
+        {
+          url: "https://linkedin.com",
+          icon: LinkedinIcon,
+        },
+        {
+          url: "https://github.com",
+          icon: GithubIcon,
+        },
+      ],
+    },
+    {
+      imageSrc: "https://i.ibb.co/4YPx63w/wie.png",
+      position: "WIE In-Charge",
+      name: "Fathima PA",
       links: [
         {
           url: "https://twitter.com",

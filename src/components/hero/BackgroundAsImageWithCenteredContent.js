@@ -2,6 +2,7 @@ import React from "react";
 import tw from "twin.macro";
 import styled from "styled-components";
 import { css } from "styled-components/macro"; //eslint-disable-line
+import logo from "../../images/iedclogo-removebg-preview.png";
 
 import Header, { NavLink, NavLinks, PrimaryLink as PrimaryLinkBase, LogoLink, NavToggle, DesktopNavLinks } from "../headers/light.js";
 
@@ -14,7 +15,13 @@ const StyledHeader = styled(Header)`
     ${tw`text-primary-900 hover:text-primary-500`}
   }
 `;
+export const Logo = styled(NavLink)`
+  ${tw`flex items-center font-black border-b-0 text-2xl! ml-0!`};
 
+  img {
+    ${tw`w-full mr-3`}
+  }
+`;
 const PrimaryLink = tw(PrimaryLinkBase)`rounded-full`
 const Container = styled.div`
   ${tw`relative -mx-8 -mt-8 bg-center bg-cover h-screen min-h-144`}
@@ -27,7 +34,7 @@ const HeroContainer = tw.div`z-20 relative px-6 sm:px-8 mx-auto h-full flex flex
 const Content = tw.div`px-4 flex flex-1 flex-col justify-center items-center`;
 
 const Heading = styled.h1`
-  ${tw`text-3xl text-center sm:text-4xl lg:text-5xl xl:text-6xl font-black text-primary-900 leading-snug -mt-24 sm:mt-0`}
+  ${tw`text-3xl text-center sm:text-4xl lg:text-5xl xl:text-6xl font-black  text-primary-900 leading-snug -mt-24 sm:mt-0`}
   span {
     ${tw`inline-block mt-2`}
   }
@@ -69,7 +76,10 @@ export default () => {
               <br />
               It's about making ideas happen
           </Heading>
-          <PrimaryAction>Contact Us</PrimaryAction>
+          <Logo href="/">
+      <img src={logo} alt="logo" />
+    </Logo>
+          {/* <PrimaryAction>Contact Us</PrimaryAction> */}
         </Content>
       </HeroContainer>
     </Container>

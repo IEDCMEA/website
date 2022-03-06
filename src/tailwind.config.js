@@ -281,6 +281,7 @@ module.exports = {
       ],
       serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
       mono: ['Menlo', 'Monaco', 'Consolas', '"Liberation Mono"', '"Courier New"', 'monospace'],
+      bahiana: ['Bahiana', 'cursive'],
     },
     fontSize: {
       xs: '0.75rem',
