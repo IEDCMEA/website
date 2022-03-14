@@ -43,7 +43,7 @@ const CardLinks = styled.div`
 export default ({
   heading = "Meet Our Execom.",
   subheading = "Our Team",
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  description = "",
   cards = [
     {
       imageSrc: "https://i.ibb.co/t487R7F/jeeja.png",
@@ -51,7 +51,7 @@ export default ({
       name: "Jeeja Menon",
       links: [
         {
-          url: "https://twitter.com",
+          url: "https://twitter.com",   
           icon: TwitterIcon,
         },
         {
