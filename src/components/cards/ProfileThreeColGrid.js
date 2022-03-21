@@ -46,7 +46,7 @@ export default ({
   description = "",
   cards = [
     {
-      imageSrc: "https://i.ibb.co/t487R7F/jeeja.png",
+      imageSrc: "https://i.ibb.co/5RqKTj7/jeeja.png",
       position: "Nodal Officer",
       name: "Jeeja Menon",
       links: [
@@ -65,7 +65,7 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://i.ibb.co/dGvWgwv/asstnodal.png",
+      imageSrc: "https://i.ibb.co/x2CztLh/asstnod.png",
       position: "Asst Nodal Officer",
       name: "Naseeb Nazar",
       links: [
@@ -84,7 +84,7 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://i.ibb.co/JFcjMXf/shibin.png",
+      imageSrc: "https://i.ibb.co/ZfrCLfN/ceo-1.png",
       position: "Chief Executive Officer",
       name: "Mohammed Shibin AK",
       links: [
@@ -103,7 +103,7 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://i.ibb.co/xjf4q9Y/cmo.png",
+      imageSrc: "https://i.ibb.co/WsxDKS8/cmo.png",
       position: "Chief Marketing Officer",
       name: "Ashiq KM",
       links: [
@@ -122,7 +122,7 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://i.ibb.co/9ybtdnJ/cpo.png",
+      imageSrc: "https://i.ibb.co/bX15nKg/cpo.png",
       position: "Chief Programming Officer",
       name: "Mohamed Anshid PT",
       links: [
@@ -141,7 +141,7 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://i.ibb.co/pLknZ0p/CFO.png",
+      imageSrc: "https://i.ibb.co/25pDtG4/cfo.png",
       position: "Chief Financial Officer",
       name: "Fahimshad CK",
       links: [
@@ -160,7 +160,7 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://i.ibb.co/HqNF8Dc/cco.png",
+      imageSrc: "https://i.ibb.co/rbxsTWp/cco.png",
       position: "Chief Creative Officer",
       name: "Mohammad Jaseel T",
       links: [
@@ -179,7 +179,7 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://i.ibb.co/JRj4dZc/CTO.png",
+      imageSrc: "https://i.ibb.co/S76MB8X/cto.png",
       position: "Chief Technical Officer",
       name: "Salih",
       links: [
@@ -198,7 +198,7 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://i.ibb.co/d5J6349/cso.png",
+      imageSrc: "https://i.ibb.co/6ZBFpWL/cso.png",
       position: "Chief Social Officer",
       name: "Mohammed Rimshan",
       links: [
@@ -217,7 +217,7 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://i.ibb.co/25KBr4t/coo.png",
+      imageSrc: "https://i.ibb.co/HY0K56G/harsha.png",
       position: "Chief Operating Officer",
       name: "Harsha PC",
       links: [
@@ -236,7 +236,7 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://i.ibb.co/s1hQJWc/iot.png",
+      imageSrc: "https://i.ibb.co/fYx2G3h/iot.png",
       position: "Iot In-charge ",
       name: "Mohammed Zahid CK",
       links: [
@@ -255,7 +255,7 @@ export default ({
       ],
     },
     {
-      imageSrc: "https://i.ibb.co/4YPx63w/wie.png",
+      imageSrc: "https://i.ibb.co/0F9xn4V/wie.png",
       position: "WIE In-Charge",
       name: "Fathima PA",
       links: [
