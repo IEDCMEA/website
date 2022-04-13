@@ -51,7 +51,7 @@ export default () => {
       <NavLink href="#">
         Events
       </NavLink>
-      <NavLink href="../../enova/index.html">
+      <NavLink href="https://dulcet-genie-f666a3.netlify.app/">
         Enova
       </NavLink>
       <NavLink href="#test">
