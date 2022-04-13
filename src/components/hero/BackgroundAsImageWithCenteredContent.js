@@ -51,8 +51,8 @@ export default () => {
       <NavLink href="#">
         Events
       </NavLink>
-      <NavLink href="#">
-        Execom
+      <NavLink href="../../enova/index.html">
+        Enova
       </NavLink>
       <NavLink href="#test">
         Contact
